@@ -1,0 +1,28 @@
+# Ignorowanie katalogu wygenerowanego przez IDE
+.idea/
+
+# Ignorowanie skompilowanych plików i artefaktów budowania
+target/
+build/
+
+# Ignorowanie plików konfiguracyjnych IDE
+*.classpath
+*.project
+*.settings/
+
+# Ignorowanie plików dziennika zdarzeń
+*.log
+
+# Ignorowanie plików systemu operacyjnego
+.DS_Store
+Thumbs.db
+
+# Ignorowanie plików z hasłami i kluczami prywatnymi
+*.key
+*.pem
+
+# Ignorowanie plików konfiguracyjnych narzędzi budowania
+mvnw
+gradlew
+gradle/
+maven/
